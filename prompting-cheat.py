@@ -4,11 +4,11 @@ import streamlit as st
 st.set_page_config(page_title="Jotform Submission", page_icon="📋", layout="centered")
 
 # App Title
-st.title("Cazie's AI Learning Lab.")
+st.title("Free Prompting Sheat Sheet")
 
 # Description
 st.write("""
-Welcome to the submission portal! Please use the form below to submit your details.
+Please use the form below to submit your details.
 The form is securely hosted using Jotform.
 """)
 
@@ -38,5 +38,5 @@ st.components.v1.html(jotform_embed_code, height=800)
 
 # Footer
 st.write("""
-Cazie's AI Learning Lab.
+Cazie's AI Learning Lab. Your email is not shared!
 """)
