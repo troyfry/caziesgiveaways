@@ -16,20 +16,21 @@ The form is securely hosted using Jotform.
 # Replace 'your_jotform_url' with the actual Jotform embed code
 jotform_embed_code = '''
 
+    
     <iframe
-      id="JotFormIFrame-250215791488160"
-      title="Get Free Stuff"
+      id="JotFormIFrame-250217507428151"
+      title="CheatSheet- Prompting"
       onload="window.parent.scrollTo(0,0)"
       allowtransparency="true"
       allow="geolocation; microphone; camera; fullscreen"
-      src="https://form.jotform.com/250215791488160"
+      src="https://form.jotform.com/250217507428151"
       frameborder="0"
       style="min-width:100%;max-width:100%;height:539px;border:none;"
       scrolling="no"
     >
     </iframe>
     <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
-    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-250215791488160']", "https://form.jotform.com/")</script>
+    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-250217507428151']", "https://form.jotform.com/")</script>
 
 </iframe>
 '''
