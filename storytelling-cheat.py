@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Jotform Submission", page_icon="📋", layout="centered")
 
 # App Title
-st.title("Cazie's AI Learning Lab.")
+st.title("Free Storytelling Sheat Sheet")
 
 # Description
 st.write("""
